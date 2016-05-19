@@ -1,0 +1,14 @@
+{
+  "name": "skype-tag-cloud",
+  "version": "1.0.0",
+  "description": "Retrieve a tag cloud from a Skype conversation JSON dump",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "common-words": "^0.1.3"
+  }
+}
