@@ -39,7 +39,6 @@ sortable.sort((a, b) => {
   return b[1] - a[1];
 });
 
-
 sortable.forEach((item, index) => {
   outStream.write((index + 1) + ': ' + item[0] + ' (' + item[1] + ')\n');
 });
