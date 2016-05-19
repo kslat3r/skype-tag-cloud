@@ -12,7 +12,6 @@ commonWords.push('ss');
 commonWords.push('');
 
 const wordCounts = {};
-const output = '';
 
 messages.RECORDS.forEach((message) => {
   const tokens = message.body_xml.toLowerCase().replace(/[^0-9a-z\s]/gi, '').split(' ');
